@@ -8,29 +8,30 @@
 import XCTest
 @testable import MVVM_Demo
 
-final class MVVM_DemoTests: XCTestCase {
+final class when_calculating_after_click_number: XCTestCase {
+    
+    let vm = CalculatorViewModel(CalculatorModel())
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test_should_calculate_plus_number_successfully() {
+        
+        let resultNumberPlus = vm.calculator.plusNumber(number1: 5, number2: 5)
+        XCTAssertEqual(10, resultNumberPlus)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func test_should_calculate_minus_number_successfully() {
+        let resultNumberMinus = vm.calculator.minusNumber(number1: 5, number2: 5)
+        XCTAssertEqual(0, resultNumberMinus)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func test_should_calculate_multiply_number_successfully() {
+        let resultNumberMultiply = vm.calculator.multiplyNumber(number1: 5, number2: 5)
+        XCTAssertEqual(25, resultNumberMultiply)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func test_should_calculate_divide_number_successfully() {
+        let resultNumberDivide = vm.calculator.divideNumber(number1: 5, number2: 5)
+        XCTAssertEqual(1, resultNumberDivide)
     }
+    
 
 }

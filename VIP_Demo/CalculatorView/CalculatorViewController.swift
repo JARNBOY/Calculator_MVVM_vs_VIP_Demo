@@ -86,13 +86,6 @@ class CalculatorViewController: UIViewController, CalculatorDisplayLogic
         
     }
     
-    // MARK: Do something
-    
-    func beginCalculate(number1 : Int, number2 : Int, typeCalculate: CalculatorModel.TypeOperations)
-    {
-        interactor?.inputNumber(number1: number1, number2: number2, typeCalculate: typeCalculate)
-    }
-    
     // MARK: CalculatorDisplayLogic
     
     func displayClickNumber(textCalculatorDisplay: String) {
