@@ -1,14 +1,14 @@
 //
-//  MVVM_VS_VIPTests.swift
-//  MVVM_VS_VIPTests
+//  MVVM_DemoTests.swift
+//  MVVM_DemoTests
 //
 //  Created by Papon Supamongkonchai on 7/4/2566 BE.
 //
 
 import XCTest
-@testable import MVVM_VS_VIP
+@testable import MVVM_Demo
 
-final class MVVM_VS_VIPTests: XCTestCase {
+final class MVVM_DemoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

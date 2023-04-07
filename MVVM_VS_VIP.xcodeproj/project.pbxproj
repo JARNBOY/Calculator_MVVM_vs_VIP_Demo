@@ -7,66 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA7682E129DFBF0700A68662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7682E029DFBF0700A68662 /* AppDelegate.swift */; };
-		CA7682E329DFBF0700A68662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7682E229DFBF0700A68662 /* SceneDelegate.swift */; };
-		CA7682E529DFBF0700A68662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7682E429DFBF0700A68662 /* ViewController.swift */; };
-		CA7682E829DFBF0700A68662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7682E629DFBF0700A68662 /* Main.storyboard */; };
-		CA7682EA29DFBF0800A68662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7682E929DFBF0800A68662 /* Assets.xcassets */; };
-		CA7682ED29DFBF0800A68662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7682EB29DFBF0800A68662 /* LaunchScreen.storyboard */; };
-		CA7682F829DFBF0800A68662 /* MVVM_VS_VIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7682F729DFBF0800A68662 /* MVVM_VS_VIPTests.swift */; };
-		CA76830229DFBF0800A68662 /* MVVM_VS_VIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76830129DFBF0800A68662 /* MVVM_VS_VIPUITests.swift */; };
-		CA76830429DFBF0800A68662 /* MVVM_VS_VIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76830329DFBF0800A68662 /* MVVM_VS_VIPUITestsLaunchTests.swift */; };
+		CA76835329DFBF8800A68662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76835229DFBF8800A68662 /* AppDelegate.swift */; };
+		CA76835529DFBF8800A68662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76835429DFBF8800A68662 /* SceneDelegate.swift */; };
+		CA76835A29DFBF8800A68662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA76835829DFBF8800A68662 /* Main.storyboard */; };
+		CA76835C29DFBF8900A68662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA76835B29DFBF8900A68662 /* Assets.xcassets */; };
+		CA76835F29DFBF8900A68662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA76835D29DFBF8900A68662 /* LaunchScreen.storyboard */; };
+		CA76836A29DFBF8900A68662 /* VIP_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76836929DFBF8900A68662 /* VIP_DemoTests.swift */; };
+		CA76838729DFC02900A68662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76838629DFC02900A68662 /* AppDelegate.swift */; };
+		CA76838929DFC02900A68662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76838829DFC02900A68662 /* SceneDelegate.swift */; };
+		CA76838B29DFC02900A68662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76838A29DFC02900A68662 /* ViewController.swift */; };
+		CA76838E29DFC02900A68662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA76838C29DFC02900A68662 /* Main.storyboard */; };
+		CA76839029DFC02900A68662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA76838F29DFC02900A68662 /* Assets.xcassets */; };
+		CA76839329DFC02900A68662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA76839129DFC02900A68662 /* LaunchScreen.storyboard */; };
+		CA76839E29DFC02A00A68662 /* MVVM_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76839D29DFC02A00A68662 /* MVVM_DemoTests.swift */; };
+		CA7683BB29DFEEE700A68662 /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7683B529DFEEE700A68662 /* CalculatorPresenter.swift */; };
+		CA7683BC29DFEEE700A68662 /* CalculatorWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7683B629DFEEE700A68662 /* CalculatorWorker.swift */; };
+		CA7683BD29DFEEE700A68662 /* CalculatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7683B729DFEEE700A68662 /* CalculatorRouter.swift */; };
+		CA7683BE29DFEEE700A68662 /* CalculatorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7683B829DFEEE700A68662 /* CalculatorModels.swift */; };
+		CA7683BF29DFEEE700A68662 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7683B929DFEEE700A68662 /* CalculatorViewController.swift */; };
+		CA7683C029DFEEE700A68662 /* CalculatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7683BA29DFEEE700A68662 /* CalculatorInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CA7682F429DFBF0800A68662 /* PBXContainerItemProxy */ = {
+		CA76836629DFBF8900A68662 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CA7682D529DFBF0700A68662 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CA7682DC29DFBF0700A68662;
-			remoteInfo = MVVM_VS_VIP;
+			remoteGlobalIDString = CA76834F29DFBF8800A68662;
+			remoteInfo = VIP_Demo;
 		};
-		CA7682FE29DFBF0800A68662 /* PBXContainerItemProxy */ = {
+		CA76839A29DFC02A00A68662 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CA7682D529DFBF0700A68662 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CA7682DC29DFBF0700A68662;
-			remoteInfo = MVVM_VS_VIP;
+			remoteGlobalIDString = CA76838329DFC02900A68662;
+			remoteInfo = MVVM_Demo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA7682DD29DFBF0700A68662 /* MVVM_VS_VIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_VS_VIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA7682E029DFBF0700A68662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA7682E229DFBF0700A68662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA7682E429DFBF0700A68662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA7682E729DFBF0700A68662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA7682E929DFBF0800A68662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA7682EC29DFBF0800A68662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA7682EE29DFBF0800A68662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA7682F329DFBF0800A68662 /* MVVM_VS_VIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_VS_VIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA7682F729DFBF0800A68662 /* MVVM_VS_VIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_VS_VIPTests.swift; sourceTree = "<group>"; };
-		CA7682FD29DFBF0800A68662 /* MVVM_VS_VIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_VS_VIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA76830129DFBF0800A68662 /* MVVM_VS_VIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_VS_VIPUITests.swift; sourceTree = "<group>"; };
-		CA76830329DFBF0800A68662 /* MVVM_VS_VIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_VS_VIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA76835029DFBF8800A68662 /* VIP_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIP_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76835229DFBF8800A68662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA76835429DFBF8800A68662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA76835929DFBF8800A68662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA76835B29DFBF8900A68662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA76835E29DFBF8900A68662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA76836029DFBF8900A68662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA76836529DFBF8900A68662 /* VIP_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIP_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76836929DFBF8900A68662 /* VIP_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIP_DemoTests.swift; sourceTree = "<group>"; };
+		CA76838429DFC02900A68662 /* MVVM_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76838629DFC02900A68662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA76838829DFC02900A68662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA76838A29DFC02900A68662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA76838D29DFC02900A68662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA76838F29DFC02900A68662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA76839229DFC02900A68662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA76839429DFC02900A68662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA76839929DFC02A00A68662 /* MVVM_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76839D29DFC02A00A68662 /* MVVM_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_DemoTests.swift; sourceTree = "<group>"; };
+		CA7683B529DFEEE700A68662 /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
+		CA7683B629DFEEE700A68662 /* CalculatorWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorWorker.swift; sourceTree = "<group>"; };
+		CA7683B729DFEEE700A68662 /* CalculatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRouter.swift; sourceTree = "<group>"; };
+		CA7683B829DFEEE700A68662 /* CalculatorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModels.swift; sourceTree = "<group>"; };
+		CA7683B929DFEEE700A68662 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		CA7683BA29DFEEE700A68662 /* CalculatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CA7682DA29DFBF0700A68662 /* Frameworks */ = {
+		CA76834D29DFBF8800A68662 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7682F029DFBF0800A68662 /* Frameworks */ = {
+		CA76836229DFBF8900A68662 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7682FA29DFBF0800A68662 /* Frameworks */ = {
+		CA76838129DFC02900A68662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76839629DFC02A00A68662 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,9 +108,10 @@
 		CA7682D429DFBF0700A68662 = {
 			isa = PBXGroup;
 			children = (
-				CA7682DF29DFBF0700A68662 /* MVVM_VS_VIP */,
-				CA7682F629DFBF0800A68662 /* MVVM_VS_VIPTests */,
-				CA76830029DFBF0800A68662 /* MVVM_VS_VIPUITests */,
+				CA76835129DFBF8800A68662 /* VIP_Demo */,
+				CA76836829DFBF8900A68662 /* VIP_DemoTests */,
+				CA76838529DFC02900A68662 /* MVVM_Demo */,
+				CA76839C29DFC02A00A68662 /* MVVM_DemoTests */,
 				CA7682DE29DFBF0700A68662 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,99 +119,143 @@
 		CA7682DE29DFBF0700A68662 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA7682DD29DFBF0700A68662 /* MVVM_VS_VIP.app */,
-				CA7682F329DFBF0800A68662 /* MVVM_VS_VIPTests.xctest */,
-				CA7682FD29DFBF0800A68662 /* MVVM_VS_VIPUITests.xctest */,
+				CA76835029DFBF8800A68662 /* VIP_Demo.app */,
+				CA76836529DFBF8900A68662 /* VIP_DemoTests.xctest */,
+				CA76838429DFC02900A68662 /* MVVM_Demo.app */,
+				CA76839929DFC02A00A68662 /* MVVM_DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA7682DF29DFBF0700A68662 /* MVVM_VS_VIP */ = {
+		CA76835129DFBF8800A68662 /* VIP_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CA7682E029DFBF0700A68662 /* AppDelegate.swift */,
-				CA7682E229DFBF0700A68662 /* SceneDelegate.swift */,
-				CA7682E429DFBF0700A68662 /* ViewController.swift */,
-				CA7682E629DFBF0700A68662 /* Main.storyboard */,
-				CA7682E929DFBF0800A68662 /* Assets.xcassets */,
-				CA7682EB29DFBF0800A68662 /* LaunchScreen.storyboard */,
-				CA7682EE29DFBF0800A68662 /* Info.plist */,
+				CA7683B429DFEEC300A68662 /* CalculatorView */,
+				CA76835229DFBF8800A68662 /* AppDelegate.swift */,
+				CA76835429DFBF8800A68662 /* SceneDelegate.swift */,
+				CA76835B29DFBF8900A68662 /* Assets.xcassets */,
+				CA76835D29DFBF8900A68662 /* LaunchScreen.storyboard */,
+				CA76836029DFBF8900A68662 /* Info.plist */,
 			);
-			path = MVVM_VS_VIP;
+			path = VIP_Demo;
 			sourceTree = "<group>";
 		};
-		CA7682F629DFBF0800A68662 /* MVVM_VS_VIPTests */ = {
+		CA76836829DFBF8900A68662 /* VIP_DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				CA7682F729DFBF0800A68662 /* MVVM_VS_VIPTests.swift */,
+				CA76836929DFBF8900A68662 /* VIP_DemoTests.swift */,
 			);
-			path = MVVM_VS_VIPTests;
+			path = VIP_DemoTests;
 			sourceTree = "<group>";
 		};
-		CA76830029DFBF0800A68662 /* MVVM_VS_VIPUITests */ = {
+		CA76838529DFC02900A68662 /* MVVM_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CA76830129DFBF0800A68662 /* MVVM_VS_VIPUITests.swift */,
-				CA76830329DFBF0800A68662 /* MVVM_VS_VIPUITestsLaunchTests.swift */,
+				CA76838629DFC02900A68662 /* AppDelegate.swift */,
+				CA76838829DFC02900A68662 /* SceneDelegate.swift */,
+				CA76838A29DFC02900A68662 /* ViewController.swift */,
+				CA76838C29DFC02900A68662 /* Main.storyboard */,
+				CA76838F29DFC02900A68662 /* Assets.xcassets */,
+				CA76839129DFC02900A68662 /* LaunchScreen.storyboard */,
+				CA76839429DFC02900A68662 /* Info.plist */,
 			);
-			path = MVVM_VS_VIPUITests;
+			path = MVVM_Demo;
+			sourceTree = "<group>";
+		};
+		CA76839C29DFC02A00A68662 /* MVVM_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA76839D29DFC02A00A68662 /* MVVM_DemoTests.swift */,
+			);
+			path = MVVM_DemoTests;
+			sourceTree = "<group>";
+		};
+		CA7683B429DFEEC300A68662 /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+				CA76835829DFBF8800A68662 /* Main.storyboard */,
+				CA7683B529DFEEE700A68662 /* CalculatorPresenter.swift */,
+				CA7683B629DFEEE700A68662 /* CalculatorWorker.swift */,
+				CA7683B729DFEEE700A68662 /* CalculatorRouter.swift */,
+				CA7683B829DFEEE700A68662 /* CalculatorModels.swift */,
+				CA7683B929DFEEE700A68662 /* CalculatorViewController.swift */,
+				CA7683BA29DFEEE700A68662 /* CalculatorInteractor.swift */,
+			);
+			path = CalculatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA7682DC29DFBF0700A68662 /* MVVM_VS_VIP */ = {
+		CA76834F29DFBF8800A68662 /* VIP_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA76830729DFBF0800A68662 /* Build configuration list for PBXNativeTarget "MVVM_VS_VIP" */;
+			buildConfigurationList = CA76837729DFBF8900A68662 /* Build configuration list for PBXNativeTarget "VIP_Demo" */;
 			buildPhases = (
-				CA7682D929DFBF0700A68662 /* Sources */,
-				CA7682DA29DFBF0700A68662 /* Frameworks */,
-				CA7682DB29DFBF0700A68662 /* Resources */,
+				CA76834C29DFBF8800A68662 /* Sources */,
+				CA76834D29DFBF8800A68662 /* Frameworks */,
+				CA76834E29DFBF8800A68662 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MVVM_VS_VIP;
-			productName = MVVM_VS_VIP;
-			productReference = CA7682DD29DFBF0700A68662 /* MVVM_VS_VIP.app */;
+			name = VIP_Demo;
+			productName = VIP_Demo;
+			productReference = CA76835029DFBF8800A68662 /* VIP_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CA7682F229DFBF0800A68662 /* MVVM_VS_VIPTests */ = {
+		CA76836429DFBF8900A68662 /* VIP_DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA76830A29DFBF0800A68662 /* Build configuration list for PBXNativeTarget "MVVM_VS_VIPTests" */;
+			buildConfigurationList = CA76837A29DFBF8900A68662 /* Build configuration list for PBXNativeTarget "VIP_DemoTests" */;
 			buildPhases = (
-				CA7682EF29DFBF0800A68662 /* Sources */,
-				CA7682F029DFBF0800A68662 /* Frameworks */,
-				CA7682F129DFBF0800A68662 /* Resources */,
+				CA76836129DFBF8900A68662 /* Sources */,
+				CA76836229DFBF8900A68662 /* Frameworks */,
+				CA76836329DFBF8900A68662 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA7682F529DFBF0800A68662 /* PBXTargetDependency */,
+				CA76836729DFBF8900A68662 /* PBXTargetDependency */,
 			);
-			name = MVVM_VS_VIPTests;
-			productName = MVVM_VS_VIPTests;
-			productReference = CA7682F329DFBF0800A68662 /* MVVM_VS_VIPTests.xctest */;
+			name = VIP_DemoTests;
+			productName = VIP_DemoTests;
+			productReference = CA76836529DFBF8900A68662 /* VIP_DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CA7682FC29DFBF0800A68662 /* MVVM_VS_VIPUITests */ = {
+		CA76838329DFC02900A68662 /* MVVM_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA76830D29DFBF0800A68662 /* Build configuration list for PBXNativeTarget "MVVM_VS_VIPUITests" */;
+			buildConfigurationList = CA7683AB29DFC02A00A68662 /* Build configuration list for PBXNativeTarget "MVVM_Demo" */;
 			buildPhases = (
-				CA7682F929DFBF0800A68662 /* Sources */,
-				CA7682FA29DFBF0800A68662 /* Frameworks */,
-				CA7682FB29DFBF0800A68662 /* Resources */,
+				CA76838029DFC02900A68662 /* Sources */,
+				CA76838129DFC02900A68662 /* Frameworks */,
+				CA76838229DFC02900A68662 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA7682FF29DFBF0800A68662 /* PBXTargetDependency */,
 			);
-			name = MVVM_VS_VIPUITests;
-			productName = MVVM_VS_VIPUITests;
-			productReference = CA7682FD29DFBF0800A68662 /* MVVM_VS_VIPUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = MVVM_Demo;
+			productName = MVVM_Demo;
+			productReference = CA76838429DFC02900A68662 /* MVVM_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA76839829DFC02A00A68662 /* MVVM_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7683AE29DFC02A00A68662 /* Build configuration list for PBXNativeTarget "MVVM_DemoTests" */;
+			buildPhases = (
+				CA76839529DFC02A00A68662 /* Sources */,
+				CA76839629DFC02A00A68662 /* Frameworks */,
+				CA76839729DFC02A00A68662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA76839B29DFC02A00A68662 /* PBXTargetDependency */,
+			);
+			name = MVVM_DemoTests;
+			productName = MVVM_DemoTests;
+			productReference = CA76839929DFC02A00A68662 /* MVVM_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,16 +267,19 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					CA7682DC29DFBF0700A68662 = {
+					CA76834F29DFBF8800A68662 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					CA7682F229DFBF0800A68662 = {
+					CA76836429DFBF8900A68662 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CA7682DC29DFBF0700A68662;
+						TestTargetID = CA76834F29DFBF8800A68662;
 					};
-					CA7682FC29DFBF0800A68662 = {
+					CA76838329DFC02900A68662 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CA7682DC29DFBF0700A68662;
+					};
+					CA76839829DFC02A00A68662 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CA76838329DFC02900A68662;
 					};
 				};
 			};
@@ -219,32 +296,43 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA7682DC29DFBF0700A68662 /* MVVM_VS_VIP */,
-				CA7682F229DFBF0800A68662 /* MVVM_VS_VIPTests */,
-				CA7682FC29DFBF0800A68662 /* MVVM_VS_VIPUITests */,
+				CA76834F29DFBF8800A68662 /* VIP_Demo */,
+				CA76836429DFBF8900A68662 /* VIP_DemoTests */,
+				CA76838329DFC02900A68662 /* MVVM_Demo */,
+				CA76839829DFC02A00A68662 /* MVVM_DemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CA7682DB29DFBF0700A68662 /* Resources */ = {
+		CA76834E29DFBF8800A68662 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA7682ED29DFBF0800A68662 /* LaunchScreen.storyboard in Resources */,
-				CA7682EA29DFBF0800A68662 /* Assets.xcassets in Resources */,
-				CA7682E829DFBF0700A68662 /* Main.storyboard in Resources */,
+				CA76835F29DFBF8900A68662 /* LaunchScreen.storyboard in Resources */,
+				CA76835C29DFBF8900A68662 /* Assets.xcassets in Resources */,
+				CA76835A29DFBF8800A68662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7682F129DFBF0800A68662 /* Resources */ = {
+		CA76836329DFBF8900A68662 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7682FB29DFBF0800A68662 /* Resources */ = {
+		CA76838229DFC02900A68662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76839329DFC02900A68662 /* LaunchScreen.storyboard in Resources */,
+				CA76839029DFC02900A68662 /* Assets.xcassets in Resources */,
+				CA76838E29DFC02900A68662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76839729DFC02A00A68662 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +342,91 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CA7682D929DFBF0700A68662 /* Sources */ = {
+		CA76834C29DFBF8800A68662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA7682E529DFBF0700A68662 /* ViewController.swift in Sources */,
-				CA7682E129DFBF0700A68662 /* AppDelegate.swift in Sources */,
-				CA7682E329DFBF0700A68662 /* SceneDelegate.swift in Sources */,
+				CA7683C029DFEEE700A68662 /* CalculatorInteractor.swift in Sources */,
+				CA76835329DFBF8800A68662 /* AppDelegate.swift in Sources */,
+				CA7683BF29DFEEE700A68662 /* CalculatorViewController.swift in Sources */,
+				CA7683BB29DFEEE700A68662 /* CalculatorPresenter.swift in Sources */,
+				CA7683BC29DFEEE700A68662 /* CalculatorWorker.swift in Sources */,
+				CA7683BE29DFEEE700A68662 /* CalculatorModels.swift in Sources */,
+				CA7683BD29DFEEE700A68662 /* CalculatorRouter.swift in Sources */,
+				CA76835529DFBF8800A68662 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7682EF29DFBF0800A68662 /* Sources */ = {
+		CA76836129DFBF8900A68662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA7682F829DFBF0800A68662 /* MVVM_VS_VIPTests.swift in Sources */,
+				CA76836A29DFBF8900A68662 /* VIP_DemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7682F929DFBF0800A68662 /* Sources */ = {
+		CA76838029DFC02900A68662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA76830229DFBF0800A68662 /* MVVM_VS_VIPUITests.swift in Sources */,
-				CA76830429DFBF0800A68662 /* MVVM_VS_VIPUITestsLaunchTests.swift in Sources */,
+				CA76838B29DFC02900A68662 /* ViewController.swift in Sources */,
+				CA76838729DFC02900A68662 /* AppDelegate.swift in Sources */,
+				CA76838929DFC02900A68662 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76839529DFC02A00A68662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76839E29DFC02A00A68662 /* MVVM_DemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CA7682F529DFBF0800A68662 /* PBXTargetDependency */ = {
+		CA76836729DFBF8900A68662 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA7682DC29DFBF0700A68662 /* MVVM_VS_VIP */;
-			targetProxy = CA7682F429DFBF0800A68662 /* PBXContainerItemProxy */;
+			target = CA76834F29DFBF8800A68662 /* VIP_Demo */;
+			targetProxy = CA76836629DFBF8900A68662 /* PBXContainerItemProxy */;
 		};
-		CA7682FF29DFBF0800A68662 /* PBXTargetDependency */ = {
+		CA76839B29DFC02A00A68662 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA7682DC29DFBF0700A68662 /* MVVM_VS_VIP */;
-			targetProxy = CA7682FE29DFBF0800A68662 /* PBXContainerItemProxy */;
+			target = CA76838329DFC02900A68662 /* MVVM_Demo */;
+			targetProxy = CA76839A29DFC02A00A68662 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA7682E629DFBF0700A68662 /* Main.storyboard */ = {
+		CA76835829DFBF8800A68662 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA7682E729DFBF0700A68662 /* Base */,
+				CA76835929DFBF8800A68662 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CA7682EB29DFBF0800A68662 /* LaunchScreen.storyboard */ = {
+		CA76835D29DFBF8900A68662 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA7682EC29DFBF0800A68662 /* Base */,
+				CA76835E29DFBF8900A68662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA76838C29DFC02900A68662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA76838D29DFC02900A68662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA76839129DFC02900A68662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA76839229DFC02900A68662 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -430,7 +548,7 @@
 			};
 			name = Release;
 		};
-		CA76830829DFBF0800A68662 /* Debug */ = {
+		CA76837829DFBF8900A68662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -438,7 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVM_VS_VIP/Info.plist;
+				INFOPLIST_FILE = VIP_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +567,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-VS-VIP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.VIP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +575,7 @@
 			};
 			name = Debug;
 		};
-		CA76830929DFBF0800A68662 /* Release */ = {
+		CA76837929DFBF8900A68662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,7 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVM_VS_VIP/Info.plist;
+				INFOPLIST_FILE = VIP_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +594,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-VS-VIP";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.VIP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +602,7 @@
 			};
 			name = Release;
 		};
-		CA76830B29DFBF0800A68662 /* Debug */ = {
+		CA76837B29DFBF8900A68662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +612,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-VS-VIPTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.VIP-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_VS_VIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM_VS_VIP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIP_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIP_Demo";
 			};
 			name = Debug;
 		};
-		CA76830C29DFBF0800A68662 /* Release */ = {
+		CA76837C29DFBF8900A68662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,46 +631,104 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-VS-VIPTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.VIP-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_VS_VIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM_VS_VIP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIP_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIP_Demo";
 			};
 			name = Release;
 		};
-		CA76830E29DFBF0800A68662 /* Debug */ = {
+		CA7683AC29DFC02A00A68662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVVM_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-VS-VIPUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVVM_VS_VIP;
 			};
 			name = Debug;
 		};
-		CA76830F29DFBF0800A68662 /* Release */ = {
+		CA7683AD29DFC02A00A68662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVVM_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-VS-VIPUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA7683AF29DFC02A00A68662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-DemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVVM_VS_VIP;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM_Demo";
+			};
+			name = Debug;
+		};
+		CA7683B029DFC02A00A68662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cimbthai.digital.tako.dev.MVVM-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM_Demo";
 			};
 			name = Release;
 		};
@@ -568,29 +744,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA76830729DFBF0800A68662 /* Build configuration list for PBXNativeTarget "MVVM_VS_VIP" */ = {
+		CA76837729DFBF8900A68662 /* Build configuration list for PBXNativeTarget "VIP_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA76830829DFBF0800A68662 /* Debug */,
-				CA76830929DFBF0800A68662 /* Release */,
+				CA76837829DFBF8900A68662 /* Debug */,
+				CA76837929DFBF8900A68662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA76830A29DFBF0800A68662 /* Build configuration list for PBXNativeTarget "MVVM_VS_VIPTests" */ = {
+		CA76837A29DFBF8900A68662 /* Build configuration list for PBXNativeTarget "VIP_DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA76830B29DFBF0800A68662 /* Debug */,
-				CA76830C29DFBF0800A68662 /* Release */,
+				CA76837B29DFBF8900A68662 /* Debug */,
+				CA76837C29DFBF8900A68662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA76830D29DFBF0800A68662 /* Build configuration list for PBXNativeTarget "MVVM_VS_VIPUITests" */ = {
+		CA7683AB29DFC02A00A68662 /* Build configuration list for PBXNativeTarget "MVVM_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA76830E29DFBF0800A68662 /* Debug */,
-				CA76830F29DFBF0800A68662 /* Release */,
+				CA7683AC29DFC02A00A68662 /* Debug */,
+				CA7683AD29DFC02A00A68662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7683AE29DFC02A00A68662 /* Build configuration list for PBXNativeTarget "MVVM_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7683AF29DFC02A00A68662 /* Debug */,
+				CA7683B029DFC02A00A68662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
